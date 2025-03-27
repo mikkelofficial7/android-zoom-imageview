@@ -7,13 +7,13 @@ Latest stable version:
 1. Add this gradle in ```build.gradle(:app)``` :
 ```
 dependencies {
-   implementation 'com.github.mikkelofficial7:android-zoom-imageview:v1.0'
+   implementation 'com.github.mikkelofficial7:android-zoom-imageview:v1.1'
 }
  ```
 or gradle.kts:
 ```
 dependencies {
-  implementation("com.github.mikkelofficial7:android-zoom-imageview:v1.0")
+  implementation("com.github.mikkelofficial7:android-zoom-imageview:v1.1")
 }
  ```
 
