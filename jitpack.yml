@@ -1,0 +1,11 @@
+jdk:
+  - openjdk17  # Or change to your required Java version
+
+before_install:
+  - ./gradlew clean  # Optional: Clean before build
+
+install:
+  - ./gradlew publishToMavenLocal  # Modify based on your library publishing setup
+
+build:
+  - ./gradlew assembleRelease  # Adjust for your module (e.g., `:mylibrary:assembleRelease`)
