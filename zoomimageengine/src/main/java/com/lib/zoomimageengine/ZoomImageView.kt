@@ -158,15 +158,15 @@ class ZoomImageView @JvmOverloads constructor(
     override fun onShowPress(event: MotionEvent) {}
     override fun onSingleTapUp(event: MotionEvent): Boolean = false
     override fun onScroll(
+        e1: MotionEvent?,
         e2: MotionEvent,
-        p1: MotionEvent,
         distanceX: Float,
         distanceY: Float
     ): Boolean = false
     override fun onLongPress(event: MotionEvent) {}
     override fun onFling(
+        e1: MotionEvent?,
         e2: MotionEvent,
-        p1: MotionEvent,
         velocityX: Float,
         velocityY: Float
     ): Boolean = false
